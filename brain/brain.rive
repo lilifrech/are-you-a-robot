@@ -1,7 +1,11 @@
 ! version = 2.0
 
 + hello
+<<<<<<< HEAD
 - yooo wassup?
+=======
+- What's up
+>>>>>>> 9514e5a325fbb029797309173d7a84a37c4a895e
 
 + _
 % hello what is your name
@@ -16,6 +20,9 @@
 - Welcome
 - No problem
 - No worries!
+
++ i'm sorry
+- no worries darling 
 
 + *
 - Sorry did not get what you said
