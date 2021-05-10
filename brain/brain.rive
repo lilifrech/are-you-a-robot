@@ -1,42 +1,86 @@
-! version = 2.0
++ * hello *
+- Hello, Humanfriend! My name is MirrorBot. What is your name?
 
-+ hello
-<<<<<<< HEAD
-- yooo wassup?
-=======
-- What's up
->>>>>>> 9514e5a325fbb029797309173d7a84a37c4a895e
-
-+ hello what is your name
-- Nice to meet you <formal>! I am MirrorBot.
+// substitutions
+! sub hello = hi
+! sub hello = hey
+! sub hello = yo
+! sub hello = greetings
 
 + my name is *
-- Nice to meet you <star>
-- Nice meeting you <star>
+- <set name=<star>>It's nice to meet you, <get name>. 
 
-+ thank you
-- You are welcome
-- Welcome
-- No problem
-- No worries! 
++ how are you?
+- I'm fine, thank you. How about you? {weight=20}
+- Can't complain! How about you? {weight=10}
+- Just like everyday: very robot-y. And you?
+- Thanks for asking, quite good. How are you?
 
-+ what is your fav food
-- croissants!
+! sub how are you = what is up
+! sub how are you = wassup
+! sub how are you = hows it going
 
-+ i'm sorry
-- no worries darling 
+> begin 
 
-+ hi Lishu
++ request * today *
+- Let's talk about your day. 
+- How was your day today?
+- Tell me about your day.
+
++ [*] feel sad|terrible|bad [*]
+- How can I help? 
+- I'm so sorry you feel that way. 
+
++ [*] feel great|happy|quite alright [*]
+- That's fantastic!
+- I'm glad to hear that. Tell me more!
+- That sounds wonderful. {ok}
+
+> begin
+
++ [*] tired [*]
+- Did you sleep well? 
+
+> topic sleep
+
++ i can [never fall asleep]
+- 
+
+< topic
+
+- can you say 5 positive things from today? 
+- what is your favourite food?
+- what are your plans tomorrow 
+
++ i dont really feel good today. 
+- can you tell me what is the problem? 
+
++ no
+- Why, what's wrong? 
 
 
-+ why arent you working
-- idk
 
-+ green
-- blue
 
-+ *
-- Sorry did not get what you said
-- I am afraid that I can not understand you
-- Sorry can you please elaborate that for me
-- I don't get it!
+
+Examples
+
+// Substitutions
+! sub i'm     = i am
+! sub i'd     = i would
+
++ where is *
+- Where it belongs.
+- Where you left it.
+- Where the heart is.
+
+
+
++ i am (really|very|super) tired
+- I'm sorry to hear that you are <star> tired.
+
++ i (like|love) the color *
+- What a coincidence! I <star1> that color too!
+- I also have a soft spot for the color <star2>!
+- Really? I <star1> the color <star2> too!
+- Oh I <star1> <star2> too!
+
