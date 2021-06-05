@@ -4,11 +4,11 @@
 + my name is *
 - <set name=<star>> Nice to meet you, <formal>. How are you feeling today ? 
 
-+ * sad|terrible|alone|lonely|miserable|desparate|lost|bad|tired|exhausted|missunderstood
-- How can I help? 
-- I'm so sorry you feel that way. Here is a 
++ * (sad|terrible|alone|lonely|miserable|desparate|lost|bad|exhausted|tired|missunderstood|stressed|hungry|unmotivated)
+- It's ok to feel <star2> sometimes. Would you prefer to talk about 
 
 + [*] feel great|happy|alright|appreciated|loved|satisfied|grateful|good [*]
-- That's fantastic!
-- I'm glad to hear that. Tell me more!
-- That sounds wonderful.
+- That sounds wonderful. Could you describe it to me ? 
+
++ no
+-
