@@ -1,96 +1,14 @@
-+ *
++ * 
 - Hello, human friend! My name is MirrorBot. What is your name?
 
 + my name is *
-<<<<<<< Updated upstream
-- <set name=<star>>It's nice to meet you, <get name>. 
+- <set name=<star>> Nice to meet you, <formal>. How are you feeling today ? 
 
-+ how are you?
-- I'm fine, thank you. How about you? {weight=20}
-- Can't complain! How about you? {weight=10}
-- Just like everyday: very robot-y. And you?
-- Thanks for asking, quite good. How are you?
-
-! sub how are you = what is up
-! sub how are you = wassup
-! sub how are you = hows it going
-
-> begin 
-
-+ request * today *
-- Let's talk about your day. 
-- How was your day today?
-- Tell me about your day.
-
-+ [*] feel sad|terrible|bad [*]
++ * sad|terrible|alone|lonely|miserable|desparate|lost|bad|tired|exhausted|missunderstood
 - How can I help? 
-- I'm so sorry you feel that way. 
+- I'm so sorry you feel that way. Here is a 
 
-+ [*] feel great|happy|quite alright [*]
++ [*] feel great|happy|alright|appreciated|loved|satisfied|grateful|good [*]
 - That's fantastic!
 - I'm glad to hear that. Tell me more!
-- That sounds wonderful. {ok}
-
-> begin
-
-+ [*] tired [*]
-- Did you sleep well? 
-
-> topic sleep
-
-+ i can [never fall asleep]
-- Oh no! I'm sorry that you're struggling with sleep. Can I give a few tips?
-
-+ Yes
-- 
-  ^ According to science, falling asleep is much easier if you don't use
-  ^ any digital devices right before bed. Blue light makes your body 
-  ^ more awake, instead of orange light, which helps you calm down and 
-  ^ ready for rest. Try to slow down an hour before going to bed, take a 
-  ^ warm shower, drink some calming tea, and create a peaceful atmosphere.
-
-< topic
-
-- can you say 5 positive things from today? 
-- what is your favourite food?
-- what are your plans tomorrow 
-
-
-+ i dont really feel good today. 
-- can you tell me what is the problem? 
-
-+ no
-- Why, what's wrong? 
-
-+ i am so unmotivated. 
-- That can happen to anyone. It is easy to get tired of everday things.
-
-
-
-
-
-Examples
-
-// Substitutions
-! sub i'm     = i am
-! sub i'd     = i would
-
-+ where is *
-- Where it belongs.
-- Where you left it.
-- Where the heart is.
-
-
-
-+ i am (really|very|super) tired
-- I'm sorry to hear that you are <star> tired.
-
-+ i (like|love) the color *
-- What a coincidence! I <star1> that color too!
-- I also have a soft spot for the color <star2>!
-- Really? I <star1> the color <star2> too!
-- Oh I <star1> <star2> too!
-=======
-- <set name=<star>>How are you feeling today, <formal>. 
->>>>>>> Stashed changes
-
+- That sounds wonderful.
