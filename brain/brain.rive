@@ -1,13 +1,8 @@
-+ * hello *
-- Hello, Humanfriend! My name is MirrorBot. What is your name?
-
-// substitutions
-! sub hello = hi
-! sub hello = hey
-! sub hello = yo
-! sub hello = greetings
++ *
+- Hello, human friend! My name is MirrorBot. What is your name?
 
 + my name is *
+<<<<<<< Updated upstream
 - <set name=<star>>It's nice to meet you, <get name>. 
 
 + how are you?
@@ -95,4 +90,7 @@ Examples
 - I also have a soft spot for the color <star2>!
 - Really? I <star1> the color <star2> too!
 - Oh I <star1> <star2> too!
+=======
+- <set name=<star>>How are you feeling today, <formal>. 
+>>>>>>> Stashed changes
 
