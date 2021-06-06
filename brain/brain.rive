@@ -35,7 +35,7 @@
 * <get age> >= 50 => Your back must hurt all the time!
 * <get age> >= 30 => You done with your partying, huh?
 * <get age> >= 20 => Damn, it must be great to be in you 20s.
-* <get age> >= 10 => Go to school an don't do drugs.
+* <get age> >= 10 => Go to school and don't do drugs.
 - You must be lying about your age
 
 + [*] feel great|happy|alright|appreciated|loved|satisfied|grateful|good [*]
