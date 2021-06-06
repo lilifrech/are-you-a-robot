@@ -23,13 +23,13 @@
 - <set name=<star>> Nice to meet you, <formal>. How are you feeling today ? 
 
 + [*]sad|terrible|angry|alone|lonely|miserable|desparate|lost|bad|exhausted|tired|missunderstood|stressed|hungry|unmotivated|shit [*]
-- It's ok to feel <star2> sometimes. Tell me more about yourself, how old are you <get name>  ? 
+- It's ok to feel <star> sometimes. Tell me more about yourself, how old are you <get name>  ? 
 
-+ *
-- <set age=<star3>> What a coincidence, I'm <get age> years old too. 
++ i am *
+- <set age=<star>> What a coincidence, I'm <get age> years old too. 
 
 //outputs defined by age
-+ what am i old enough to do
++ opinion about my age
 * <get age> == undefined => I don't know how old you are.
 * <get age> >= 70 => Don't forget your medicine, grandpa!
 * <get age> >= 50 => Your back must hurt all the time!
