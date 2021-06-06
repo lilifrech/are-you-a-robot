@@ -1,13 +1,41 @@
 + * 
 - Hello, human friend! My name is MirrorBot. What is your name?
 
+// Substitutions
+! sub i'm     = i am
+! sub i'd     = i would
+! sub i've    = i have
+! sub i'll    = i will
+! sub don't   = do not
+! sub isn't   = is not
+! sub you'd   = you would
+! sub you're  = you are
+! sub you've  = you have
+! sub you'll  = you will
+! sub what's  = what is
+! sub whats   = what is
+! sub what're = what are
+! sub what've = what have
+! sub what'll = what will
+! sub who's   = who is
+
 + my name is *
 - <set name=<star>> Nice to meet you, <formal>. How are you feeling today ? 
 
-+ * (sad|terrible|alone|lonely|miserable|desparate|lost|bad|exhausted|tired|missunderstood|stressed|hungry|unmotivated|shit)
++ * (sad|terrible|alone|lonely|miserable|desparate|lost|bad|exhausted|tired|missunderstood|stressed|hungry|unmotivated|shit) 
 - It's ok to feel <star2> sometimes. Tell me more about yourself, how old are you <get name>  ? 
 
++ *
+- <set age=<star3>> What a coincidence, I'm <get age> years old too. 
+
++ what am i old enough to do
+* <get age> == undefined => I don't know how old you are.
+* <get age> >= 70 => Don't forget your medicine, grandpa!
+* <get age> >= 50 => Your back must hurt all the time!
+* <get age> >= 30 => You done with your partying, huh?
+* <get age> >= 20 => Damn, it must be great to be in you 20s.
+* <get age> >= 10 => 
+- You must be lying about your age
+
 + [*] feel great|happy|alright|appreciated|loved|satisfied|grateful|good [*]
-- That sounds wonderful. Tell me more about yourself. What is your favourite colour, <get name>? 
-
-
+- That sounds wonderful. Tell me more about yourself. What's your favourite colour, <get name>? 
