@@ -39,4 +39,23 @@
 - You must be lying about your age
 
 + [*] feel great|happy|alright|appreciated|loved|satisfied|grateful|good [*]
-- That sounds wonderful. Tell me more about yourself. What's your favourite colour, <get name>? 
+- That sounds wonderful. Tell me more about yourself. What's your favourite colour, <get name>?{topic=colour}
+
+> topic colour
+ + [*] red [*]
+ - Hm, red? Interesting choice. This tells me that your personality is bold, you are kind of extroverted, and you have many friends.
+ + [*] purple [*]
+ - Oh purple! Love it. Unique and elegant colour. Can I guess that you like arts and listen to alt music?
+ + [*] green [*]
+ - Green is the colour of nature, trees and herbs. You are very connected to Mother Earth and you are a calm, wise person. 
+ + [*] yellow [*]
+ - The colour of happiness and hope! So beautiful. You must be a person full of sunshine and a delight to be around. 
+ + [*] blue [*]
+ - Blue is a magnificent, but melancholic colour. Do you sometimes feel that Bittersweet Symphony was written about you?
+ + [*] black [*]
+ - Oh, so you're an emo person. You like dark things and people sometimes say you're weird. 
+ + [*] grey [*]
+ - Very interesting. Is that even a colour? This tells me that you like to blend in, and you don't like conflicts. On the other hand, you are very elegant.
+ + *
+ - Oh really? So you don't like conventional colours. You even flex with the choice of your favourite colour. Bit snobbish, but understandable. You want to stand out from the crowd, and you can!
+< topic
