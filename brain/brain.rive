@@ -22,7 +22,7 @@
 + my name is *
 - <set name=<star>> Nice to meet you, <formal>. How are you feeling today ? 
 
-+ [*]sad|terrible|angry|alone|lonely|miserable|desparate|lost|bad|exhausted|tired|missunderstood|stressed|hungry|unmotivated|shit [*]
++ (sad|terrible|angry|alone|lonely|miserable|desparate|lost|bad|exhausted|tired|missunderstood|stressed|hungry|unmotivated|shit)
 - It's ok to feel <star> sometimes. Tell me more about yourself, how old are you <get name>  ? 
 
 + i am *
